@@ -27,7 +27,7 @@ export default function MiniServices() {
                                     {img.description}
                                 </p>
                                 <div className="flex items-center justify-center">
-                                    <button className="bg-transparent text-black underline">Read More</button>
+                                    <button className="bg-transparent text-black">Read More</button>
                                     <FaArrowRight className='text-black text-base ml-2' />
                                 </div>
                             </div>
