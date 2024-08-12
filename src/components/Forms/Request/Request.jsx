@@ -37,8 +37,7 @@ export default function Request() {
                     </div>
                 </div>
 
-                {/* Desktop view */}
-                <div className="hidden md:grid md:grid-cols-2 gap-8">
+                <div className="hidden md:grid md:grid-cols-2">
                     <div className='flex flex-col items-start justify-start space-y-5 py-16'>
                         <div className="flex items-center justify-center">
                             <img src={icon} alt="icon" className='h-6 w-6 mr-3' />
@@ -48,7 +47,7 @@ export default function Request() {
                             to Reach Potential</h1>
 
                         <form className="flex flex-col items-start justify-start space-y-4 bg-slate-800 z-50">
-                            <div className="flex items-center justify-center text-xl font-semibold space-x-4">
+                            <div className="flex items-center justify-center text-xl font-semibold">
                                 <h1 className='bg-orange text-white px-12 py-4'>Request A Quote</h1>
                                 <h1 className='bg-white text-black px-12 py-4 border-r-2 border-r-black'>Real Time Tracking</h1>
                                 <h1 className='bg-white text-black px-12 py-4'>24/7 Hours Support</h1>

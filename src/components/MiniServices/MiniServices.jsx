@@ -7,7 +7,7 @@ export default function MiniServices() {
 
     return (
         <>
-            <section className='flex flex-col items-center justify-center bg-slate-200 px-16 pt-20 pb-32 space-y-4'>
+            <section className='flex flex-col items-center justify-center bg-slate-200 px-16 pt-20 pb-72 space-y-4'>
                 <h1 className='text-orange flex items-center justify-center text-3xl font-bold'>
                     <img src={icon} alt="icon" className='h-6 w-6 mr-3' />
                     OUR SERVICES

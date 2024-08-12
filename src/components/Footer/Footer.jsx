@@ -1,8 +1,10 @@
 import React from 'react';
 import { SiGmail } from "react-icons/si";
 import { FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
+import { Link } from 'react-router-dom';
 
 export default function Footer() {
+
     return (
         <>
             <footer className="bg-grey text-white py-12 px-4 md:px-20">
@@ -12,10 +14,10 @@ export default function Footer() {
                             Subscribe Our Newsletter Get Update
                         </h1>
                         <div className="flex flex-col md:flex-row items-center">
-                            <input 
-                                type="text" 
-                                placeholder="Enter Your Email" 
-                                className="bg-slate-700 border-2 border-black text-white text-base md:text-xl font-semibold px-4 py-2 mb-4 md:mb-0 md:mr-4 w-full md:w-auto" 
+                            <input
+                                type="text"
+                                placeholder="Enter Your Email"
+                                className="bg-slate-700 border-2 border-black text-white text-base md:text-xl font-semibold px-4 py-2 mb-4 md:mb-0 md:mr-4 w-full md:w-auto"
                             />
                             <button className="bg-orange text-white text-base md:text-2xl px-6 py-2 md:px-7 md:py-4 font-semibold hover:bg-white hover:text-orange transition-all duration-300 ease-in-out">
                                 Subscribe
@@ -26,9 +28,11 @@ export default function Footer() {
                     <div className='grid grid-cols-1 md:grid-cols-[35%_repeat(2,_1fr)] gap-8 md:gap-24 py-12 md:py-24'>
                         <div className='flex flex-col items-start space-y-10'>
                             <div className='flex flex-col items-start space-y-5'>
-                                <h1 className="text-4xl md:text-5xl font-bold">
-                                    Logistic
-                                </h1>
+                                <Link to='/'>
+                                    <h1 className="cursor-pointer text-4xl md:text-5xl font-bold">
+                                        Logistic
+                                    </h1>
+                                </Link>
                                 <p className='text-base md:text-xl'>
                                     Pellentesque non dolor vitae lacus fringilla consequat vel quis enim. Cras venenatis mollis neque in fringilla. In vitae.
                                 </p>

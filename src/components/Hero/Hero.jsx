@@ -1,7 +1,10 @@
 import React from 'react';
 import icon from '../../assets/img/vectors icons/image 2.png';
+import { useRef } from 'react';
 
 export default function Hero({ img, h1, p1, h2, p2 }) {
+    const heroRef = useRef(null);
+    
     return (
         <>
             <section style={{ backgroundImage: `url(${img})` }} className="relative text-white font-inter px-4 sm:px-8 md:px-32 space-y-3 flex flex-col items-start justify-center h-screen bg-no-repeat bg-center bg-cover">

@@ -46,8 +46,6 @@ export default function About() {
                     <h1 className="relative text-xl sm:text-2xl md:text-4xl text-orange font-bold text-center flex items-center justify-center z-10">
                         <img src={icon} alt="icon" className='h-5 sm:h-6 w-5 sm:w-6 mr-2 sm:mr-3' />
                         ABOUT US
-
-                        <span className="absolute bottom-0 left-1/2 w-1/3 h-1 mt-2 bg-orange transform -translate-x-1/2"></span>
                     </h1>
 
                     <p className='text-lg sm:text-xl md:text-2xl'>

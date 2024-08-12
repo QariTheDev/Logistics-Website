@@ -11,7 +11,7 @@ export default function AboutUs() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <div className="relative">
                         <img src={containerSet} alt="containers" className="w-full h-auto object-cover" />
-                        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-orange rounded-full flex flex-col items-center justify-center h-40 w-40 md:h-52 md:w-52 drop-shadow-2xl overflow-hidden">
+                        <div className="absolute top-1/3 left-1/3 transform -translate-x-1/2 -translate-y-1/2 bg-orange rounded-full flex flex-col items-center justify-center h-40 w-40 md:h-52 md:w-52 drop-shadow-2xl overflow-hidden">
                             <h1 className="text-3xl md:text-5xl font-bold text-white">25+</h1>
                             <p className="text-sm md:text-xl text-white text-center font-semibold">Years Working <br /> Experience</p>
                         </div>
